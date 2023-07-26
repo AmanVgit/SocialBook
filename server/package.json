@@ -20,7 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
    "engines": {
       "node": ">=14.20.1"
