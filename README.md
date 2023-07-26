@@ -1,3 +1,3 @@
 # SocialBook
 # Deployement
-### Deployed Website: [socialtruth.netlify.app](https://socialtruth.netlify.app/)https://socialtruth.netlify.app/
+### Deployed Website: [socialtruth.netlify.app](https://socialtruth.netlify.app/)
