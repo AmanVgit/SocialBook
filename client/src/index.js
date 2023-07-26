@@ -6,7 +6,7 @@ import authReducer from "./state";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import {
-  persistStore,
+  persistStore,    
   persistReducer,
   FLUSH,
   REHYDRATE,

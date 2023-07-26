@@ -37,7 +37,7 @@ const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "public/assets");
   },
-  filename: function (req, file, cb) {
+  filename: function (req, file, cb){
     cb(null, file.originalname);
   },
 });
@@ -60,10 +60,10 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+    app.listen(PORT, () => console.log(`Server running on Port: ${PORT}`));
 
     /* ADD DATA ONE TIME */
-    // User.insertMany(users);
-    // Post.insertMany(posts);
+    //User.insertMany(users);
+    //Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
